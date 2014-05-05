@@ -1,3 +1,9 @@
+Doxyfile
+debug.txt
+html/*
+latex/*
+
+
 # OS X Finder
 .DS_Store
 
