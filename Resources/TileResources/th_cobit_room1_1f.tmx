@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="37" height="12" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="yokan" tilewidth="32" tileheight="32">
+  <image source="yokan.png" width="256" height="2048"/>
+ </tileset>
+ <tileset firstgid="513" name="meta_tiles" tilewidth="32" tileheight="32" spacing="1" margin="1">
+  <image source="meta_tiles.png" width="67" height="34"/>
+  <tile id="0">
+   <properties>
+    <property name="Collidable" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="WallFloor" width="37" height="12">
+  <data encoding="base64" compression="zlib">
+   eJzN0sEKgzAQRdG0lpZmoKUIurM7/f+ty35ZJ5DCMLwwaUIwi7Pxid6g3jnnD3BiZ2EwdmTIuOcfF3Zlt4hU013tCBl7iQd7RqhJ7ggZe4mJzRFqkjtCxl7iw94RapI7QsZeCzXtnTW92Mo2QTf6ivelziuv66aU0DZm3pvyO69+Tvg2S0FTSz026f+l9nu09gXx/B8B
+  </data>
+ </layer>
+ <layer name="Stairs" width="37" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjYBg44AilnQbQDejAE4gzGRkYvEjQI01jeXLcpExj+UAGiJuCiHcSgzaN5UfBKKAmGC7lE63BYHQTLgAAFKcHQw==
+  </data>
+ </layer>
+ <objectgroup name="Entrances" width="37" height="12">
+  <object name="SpawnPoint" x="80" y="208"/>
+  <object name="North1" type="Door" x="240" y="272"/>
+  <object name="North2" type="Door" x="496" y="144"/>
+  <object name="North3" type="Door" x="752" y="144"/>
+ </objectgroup>
+ <layer name="WallThrough" width="37" height="12" opacity="0.67">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjAIEEELDPFBxXigfmxpiMLo56OLkuJMagFrmjFSAHJeDHQAA/lQCEw==
+  </data>
+ </layer>
+ <layer name="Meta" width="37" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjZGJgYBzFcIwMBtotw81NhNRSQx6fmwgBYtRQAkbdRL6byEkPlJpDjpsGY74biW7ChQGYkQPQ
+  </data>
+ </layer>
+</map>

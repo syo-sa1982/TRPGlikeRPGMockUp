@@ -1,0 +1,3 @@
+[submodule "cocos2d"]
+	path = cocos2d
+	url = https://github.com/syo-sa1982/cocosNew_cocos2d.git
